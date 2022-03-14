@@ -1,0 +1,9 @@
+#fibnocci
+n = int(input())
+s=0
+n1,n2=0,1
+for i in range (0,n):
+    print(s,end =" ")
+    n1=n2
+    n2=s
+    s=n1+n2
